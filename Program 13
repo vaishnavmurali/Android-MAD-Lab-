@@ -1,5 +1,3 @@
-Program
-
 activity main.xml
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -44,29 +42,6 @@ public class MainActivity extends AppCompatActivity [
 
 @Override
 
-
-13:45
-
-585
-
-MainActivity.java
-
-package com.example.arrayadapter,
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-
-import android.widget. ArrayAdapter,
-
-import android.widget.ListView;
-
-import android.widget.Toast;
-
-public class MainActivity extends AppCompatActivity {
-
-@Override
-
 protected void onCreate(Bundle savedInstanceState) {
 
 super.onCreate(savedInstanceState);
@@ -87,18 +62,7 @@ listview.setOnltemClickListener((parent,view.position,id)-> (
 
 Toast.makeText(this, "The selected item is-" +person_qualify[position].
 
-11
-
-1):
-
 Toast.LENGTH_SHORT).show();
+});
+} }
 
-Powered by WPS Office
-
-Candy Crush Saga
-
-AD
-
-Download
-
-X
